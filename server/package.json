@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prestart": "npm run lint",
-    "start": "nodemon src/app.js",
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js",
     "lint": "node_modules/.bin/eslint"
   },
   "keywords": [],
@@ -14,10 +14,12 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "eslint": "^5.12.1",
+    "eslint": "^5.14.1",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.9",
+    "sequelize": "^4.8.0",
+    "sqlite3": "^3",
+    "nodemon": "^1.18.10",
     "save": "^2.3.3"
   },
   "devDependencies": {

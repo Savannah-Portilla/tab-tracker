@@ -21,7 +21,7 @@ fs
     db[model.name] = model
   })
 
-  db.Sequelize = sequelize
-  db.Sequelize = sequelize
+  db.sequelize = sequelize
+  db.Sequelize = Sequelize
 
 module.exports = db

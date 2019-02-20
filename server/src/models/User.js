@@ -1,4 +1,4 @@
-module.exports = {sequelize, DataTypyes} =>
+module.exports = (sequelize, DataTypyes) =>
   sequelize.define('User', {
       email: {
           type: DataType.STRING,
@@ -6,4 +6,3 @@ module.exports = {sequelize, DataTypyes} =>
       },
       password: DataTypes.STRING
   })
-  
