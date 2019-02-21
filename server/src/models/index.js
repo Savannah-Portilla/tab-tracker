@@ -1,5 +1,5 @@
-const fs = require('fs')
-const path = require('path')
+const fs = require('fs')    //used for connecting to our database, loads in configurations and read files 
+const path = require('path')      //from the models folder and loads into sequelize for later use
 const Sequelize = require('sequelize')
 const config = require('../config/config')
 const db = {}
